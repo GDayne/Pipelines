@@ -17,8 +17,3 @@ class Calculadora:
         if b == 0:
             return "Error: No se puede potenciar entre cero."
         return a ** b
-    #nuevo metodo para PR
-    def raiz(self, a, b):
-        if b == 0:
-            return "Error: No se puede raiz entre cero."
-        return a ** b
