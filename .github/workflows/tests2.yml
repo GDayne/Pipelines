@@ -31,4 +31,4 @@ jobs:
         python -m unittest discover -s pythonProject/tests
     - name: Check code coverage
       run: |
-        coverage run -m pytest 
+        coverage report 
