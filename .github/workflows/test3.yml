@@ -32,6 +32,8 @@ jobs:
     # 4. Configurar PYTHONPATH
     - name: Set PYTHONPATH
       run: echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
+    - name: Debug PYTHONPATH
+      run: echo $PYTHONPATH
 
     # 5. Ejecutar tests con pytest
     - name: Run unit tests
