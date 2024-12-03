@@ -12,3 +12,8 @@ class Calculadora:
         if b == 0:
             return "Error: No se puede dividir entre cero."
         return a / b
+    #nuevo metodo
+    def potencia(self, a, b):
+        if b == 0:
+            return "Error: No se puede potenciar entre cero."
+        return a ** b
