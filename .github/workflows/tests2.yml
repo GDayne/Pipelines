@@ -28,7 +28,7 @@ jobs:
     
     - name: Run unit tests
       run: |
-        python -m pytest 
+        python -m unittest discover tests   
     - name: Check code coverage
       run: |
         coverage run -m pytest 
